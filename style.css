@@ -1,14 +1,15 @@
 body{
     background-color: #1F2937;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 header{
     color: #F9FAF8;
     font-family: sans-serif;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
 
 ul{
@@ -23,10 +24,65 @@ a{
 }
 
 .left-links{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .right-links{
-    font-size: 24px;
+    font-size: 18px;
+}
+
+.hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sect1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.secondary-hero{
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.first-button{
+    font-size: 18px;
+    padding: 5px 35px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+.right-sect1{
+    background-color: grey;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0px 175px;
+}
+
+header, .section-1{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+
+.section-2{
+    background-color: white;
 }
