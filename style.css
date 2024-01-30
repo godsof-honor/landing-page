@@ -5,6 +5,28 @@ body{
 
 header{
     color: #F9FAF8;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.left-links{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.right-links{
     font-size: 24px;
-    border: 1px solid
 }
